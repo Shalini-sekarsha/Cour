@@ -18,7 +18,7 @@ class Update {
         driver.findElement(By.name("scity")).sendKeys("Thiruchy");
         driver.findElement(By.name("ptype")).sendKeys("package");
         driver.findElement(By.name("button")).click();
-        assertEquals("User added Successfully", "User added Successfully");
+        assertEquals("User added Successfully", "User added ");
 	}
 	
 

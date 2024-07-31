@@ -25,7 +25,7 @@ class AddAdmin {
 	        
 	        driver.findElement(By.name("button")).click();
 	        
-	        assertEquals("Data added Successfully", "Data added Successfully");
+	        assertEquals("Data added Successfully", "Data added");
 		}
 	@Test
 	void test1() {
