@@ -21,7 +21,7 @@ import com.example.courier.serviceimpl.UserServiceImpl;
 
 @RestController
 @RequestMapping("/use")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:3000")
 public class UserController {
 	@Autowired
 	UserServiceImpl service;

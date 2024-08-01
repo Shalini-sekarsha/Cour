@@ -19,7 +19,7 @@ import com.example.courier.service.AdminService;
 
 @RestController
 @RequestMapping("/adm")
-@CrossOrigin("*")
+@CrossOrigin("http://localhost:3000")
 public class AdminController {
 	
 
