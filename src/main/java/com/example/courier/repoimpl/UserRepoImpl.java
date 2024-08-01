@@ -28,6 +28,7 @@ package com.example.courier.repoimpl;
 			return em.find(User.class, id);
 		}
 
+		@SuppressWarnings("unchecked")
 		@Override
 		public List<User> findAll() {
 			String hql="from User";

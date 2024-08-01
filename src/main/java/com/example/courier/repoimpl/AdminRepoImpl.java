@@ -42,6 +42,7 @@ import jakarta.persistence.EntityManager;
 		
 		}
 
+		@SuppressWarnings("unchecked")
 		@Override
 		public List<Admin> findAll() {
 			String hql="from Admin";

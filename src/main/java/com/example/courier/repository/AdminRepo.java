@@ -1,17 +1,9 @@
 package com.example.courier.repository;
 
-
-	import java.util.List;
-
+import java.util.List;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-
 import com.example.courier.model.Admin;
-
-
-
-
-
 		@Repository
 		public interface AdminRepo{
 			@Query("select aid from Admin")
